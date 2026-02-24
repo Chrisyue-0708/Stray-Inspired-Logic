@@ -14,7 +14,7 @@ class StrayGameLogic:
         for step in range(1, distance + 1):
             if self.energy <= 0:
                 print(f"[{self.cat_name}] is exhausted. Need to find a place to nap... 💤")
-                break
+                break）
             
             self.position += 1
             self.energy -= 5
@@ -46,3 +46,5 @@ class StrayGameLogic:
 # --- Run the Integrated Simulation ---
 stray_sim = StrayGameLogic("Stray Cat")
 stray_sim.move_to_target(15) # Cat tries to move 15 steps
+stray_sim = StrayGameLogic("Ginger")
+stray_sim.move_to_target(15)
