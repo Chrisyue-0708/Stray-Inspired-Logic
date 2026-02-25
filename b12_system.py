@@ -22,7 +22,8 @@ class B12Drone:
         detected_entities = ["Companion", "Zurk", "Companion", "Cat"]
         target = random.choice(detected_entities)
         
-        print(f"[{self.drone_name}]: 'Target Identified: {target}'")
+        print(f"[{self.drone_name}]: 'Target Identified: {target}'"j
+             )
         self._analyze_target(target)
 
     def _analyze_target(self, entity_name):
