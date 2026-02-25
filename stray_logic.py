@@ -14,7 +14,7 @@ class StrayGameLogic:
         for step in range(1, distance + 1):
             if self.energy <= 0:
                 print(f"[{self.cat_name}] is exhausted. Need to find a place to nap... 💤")
-                break）
+                break)
             
             self.position += 1
             self.energy -= 5
